@@ -15,6 +15,32 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "gameIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "addGame",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -30,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"UserProfile.sol": "UserProfile"
+			"exUserProfile.sol": "UserProfile"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -44,12 +70,28 @@
 		"remappings": []
 	},
 	"sources": {
-		"UserProfile.sol": {
-			"keccak256": "0x20e0fd21748e3257ac9a5e562d4edacd323bf4cbe9d5ccce166c687a2d4a90b7",
+		"exGame.sol": {
+			"keccak256": "0x44c13e2b18efc4da5c75cbcc6961f6e3188ccb0e20cc6c675554568b1e6847e7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e11dae4b16aafd8f9bd5e1bdc823cf848149d8220dc930d5d2b4364bf9fa6832",
-				"dweb:/ipfs/QmRnjPnAYmz5B1xT4Rxudgmj9xUXHqkdJWBZaKfvj21WPH"
+				"bzz-raw://3a0158043c50ccf7cb2f473ffc5d1f24f3b540f1f29cbe0ff4732fdcb55de20b",
+				"dweb:/ipfs/QmdSBj9z2hbJV8dwaWmBsvgH9ZX1fjyYYneSV6dys8Ysk5"
+			]
+		},
+		"exIStdReference.sol": {
+			"keccak256": "0x297fbe7972604d62dcc13b49674e98da3793ed29d759ba771fb42b8532f6333d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://da9289e0bc37ac32d81c544587e736319fc49ad588487bb31be64724c0f671b7",
+				"dweb:/ipfs/QmVFwYquEj9dSSWYoD9C6mDBP1qB3cpdE4c1nnrxYanqfx"
+			]
+		},
+		"exUserProfile.sol": {
+			"keccak256": "0x871e88ef48709e0bb24d7c8c0a440703a4ceb37ad1513702ed8ee27f6e407614",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f4ffd424f875f2b508443db5c06f587fdf8d22585e2c289b316dfaa018ad8768",
+				"dweb:/ipfs/QmcRf7KsF4GDmomxDR7zavezqHceP3s5kF43sXf3omozah"
 			]
 		}
 	},

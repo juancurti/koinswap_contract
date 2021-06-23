@@ -12,7 +12,20 @@
 			},
 			{
 				"inputs": [],
-				"name": "getCurrentGameInitialValue",
+				"name": "addUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "gameIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "getGameInitialValue",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -24,8 +37,14 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getCurrentGameStartDate",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "gameIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "getGameStartDate",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -48,6 +67,38 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTotalGames",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "player",
+						"type": "address"
+					}
+				],
+				"name": "userExists",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -63,7 +114,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"KoinSwapGame.sol": "KoinSwapGame"
+			"exKoinSwapGame.sol": "KoinSwapGame"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -77,14 +128,6 @@
 		"remappings": []
 	},
 	"sources": {
-		"Game.sol": {
-			"keccak256": "0xaf0770eb78e5e69c36124a7ef481909629751bdee00990ae00678c425ea42a6b",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://8c692d99b841b960e8e85655a8f08bf239dfb07a52f3da6888aa3c882cfad611",
-				"dweb:/ipfs/QmYdSKVFZpHD9edbnjy9PVv8nnTiY127n4Yshvihk3vaZq"
-			]
-		},
 		"IStdReference.sol": {
 			"keccak256": "0x297fbe7972604d62dcc13b49674e98da3793ed29d759ba771fb42b8532f6333d",
 			"license": "MIT",
@@ -93,20 +136,28 @@
 				"dweb:/ipfs/QmVFwYquEj9dSSWYoD9C6mDBP1qB3cpdE4c1nnrxYanqfx"
 			]
 		},
-		"KoinSwapGame.sol": {
-			"keccak256": "0xd4fe51db3dc014e22303fe163d5cb2ebfa6b478a22655741fd23545e08d8028d",
+		"exGame.sol": {
+			"keccak256": "0xd8a141dd6f0c95e2ec452749d61324d63b071c390cde2d7f810d1cbd5517cc46",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8fca2130be4928b46dce5c7c6931ee6234ab4ec82cde2d626e6550900b9ffa61",
-				"dweb:/ipfs/QmWXvGmaxh3RGPmmaW3eUTDnxRzJVFSP6bHse6x7hWBy78"
+				"bzz-raw://c21fc7d2af25676a42bc801c507f3d7088d7cf32c8aae55efd73fd472e5e8a3e",
+				"dweb:/ipfs/QmcPuYsJFMQZXeQg4Uf1Riyyju2yCVhyrRWtvY4k1x9X2b"
 			]
 		},
-		"UserProfile.sol": {
-			"keccak256": "0x20e0fd21748e3257ac9a5e562d4edacd323bf4cbe9d5ccce166c687a2d4a90b7",
+		"exKoinSwapGame.sol": {
+			"keccak256": "0xb6fffb64fba769ae7146aa597b93fead2871c681a9238b14117ee11bcddc41d9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e11dae4b16aafd8f9bd5e1bdc823cf848149d8220dc930d5d2b4364bf9fa6832",
-				"dweb:/ipfs/QmRnjPnAYmz5B1xT4Rxudgmj9xUXHqkdJWBZaKfvj21WPH"
+				"bzz-raw://d8db2e9e60db072801a5266324fb8724750741348d1ff77ba8ac57bffd74d721",
+				"dweb:/ipfs/QmaNDjdz9UzmPU2d53x6BHL7VSL9gPChSnLMMD8cjoMEfc"
+			]
+		},
+		"exUserProfile.sol": {
+			"keccak256": "0x871e88ef48709e0bb24d7c8c0a440703a4ceb37ad1513702ed8ee27f6e407614",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f4ffd424f875f2b508443db5c06f587fdf8d22585e2c289b316dfaa018ad8768",
+				"dweb:/ipfs/QmcRf7KsF4GDmomxDR7zavezqHceP3s5kF43sXf3omozah"
 			]
 		}
 	},
