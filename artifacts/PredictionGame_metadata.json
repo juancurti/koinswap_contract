@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.6.11+commit.5ef660b1"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "cancelParticipation",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBTCPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "player",
+						"type": "address"
+					}
+				],
+				"name": "isParticipant",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "participate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"predictiongame.sol": "PredictionGame"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"IStdReference.sol": {
+			"keccak256": "0x297fbe7972604d62dcc13b49674e98da3793ed29d759ba771fb42b8532f6333d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://da9289e0bc37ac32d81c544587e736319fc49ad588487bb31be64724c0f671b7",
+				"dweb:/ipfs/QmVFwYquEj9dSSWYoD9C6mDBP1qB3cpdE4c1nnrxYanqfx"
+			]
+		},
+		"predictiongame.sol": {
+			"keccak256": "0xbbdc4445294b836fffaefdbf2b806eda13204003be9f8ca0ac2018109ef42ad6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://21b7ce56fc24d492ecdc2f67a99968c310a15601aa0f5c2a4fb8361ced05bde6",
+				"dweb:/ipfs/QmVgg8oVTBiwpX2tDxzrMJtmDjw38WnaHaKQxQM4uh1jJW"
+			]
+		}
+	},
+	"version": 1
+}
