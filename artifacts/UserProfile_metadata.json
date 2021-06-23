@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.6.11+commit.5ef660b1"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "player",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"UserProfile.sol": "UserProfile"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"UserProfile.sol": {
+			"keccak256": "0x20e0fd21748e3257ac9a5e562d4edacd323bf4cbe9d5ccce166c687a2d4a90b7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e11dae4b16aafd8f9bd5e1bdc823cf848149d8220dc930d5d2b4364bf9fa6832",
+				"dweb:/ipfs/QmRnjPnAYmz5B1xT4Rxudgmj9xUXHqkdJWBZaKfvj21WPH"
+			]
+		}
+	},
+	"version": 1
+}

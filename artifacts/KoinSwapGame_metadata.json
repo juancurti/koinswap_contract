@@ -6,19 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "contract IStdReference",
-						"name": "ref",
-						"type": "address"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "getCreationDate",
+				"name": "getCurrentGameInitialValue",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -31,7 +25,20 @@
 			},
 			{
 				"inputs": [],
-				"name": "getInitialValue",
+				"name": "getCurrentGameStartDate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getLastBTCPrice",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -56,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Game.sol": "Game"
+			"KoinSwapGame.sol": "KoinSwapGame"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -84,6 +91,14 @@
 			"urls": [
 				"bzz-raw://da9289e0bc37ac32d81c544587e736319fc49ad588487bb31be64724c0f671b7",
 				"dweb:/ipfs/QmVFwYquEj9dSSWYoD9C6mDBP1qB3cpdE4c1nnrxYanqfx"
+			]
+		},
+		"KoinSwapGame.sol": {
+			"keccak256": "0xd4fe51db3dc014e22303fe163d5cb2ebfa6b478a22655741fd23545e08d8028d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8fca2130be4928b46dce5c7c6931ee6234ab4ec82cde2d626e6550900b9ffa61",
+				"dweb:/ipfs/QmWXvGmaxh3RGPmmaW3eUTDnxRzJVFSP6bHse6x7hWBy78"
 			]
 		},
 		"UserProfile.sol": {
