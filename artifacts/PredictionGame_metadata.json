@@ -84,6 +84,14 @@
 		"remappings": []
 	},
 	"sources": {
+		"Game.sol": {
+			"keccak256": "0x50e884fe8a4f14248dc96343d0cc39b4b71537ea7906313e3cc48256b5fe3d6c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f12c637da6c3e961c4d99f5789f5a8d576311b0453a7732620761548531008c0",
+				"dweb:/ipfs/QmbERQzKHtPrxds4jt1EdMfzny6xFaTo22NLtWxVAnANue"
+			]
+		},
 		"IStdReference.sol": {
 			"keccak256": "0x297fbe7972604d62dcc13b49674e98da3793ed29d759ba771fb42b8532f6333d",
 			"license": "MIT",
@@ -93,11 +101,11 @@
 			]
 		},
 		"predictiongame.sol": {
-			"keccak256": "0xbbdc4445294b836fffaefdbf2b806eda13204003be9f8ca0ac2018109ef42ad6",
+			"keccak256": "0x2a0f372e514e8560d78a1ea6b77e0d8bad03cf061cc8a556f162da8c9f50bce5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://21b7ce56fc24d492ecdc2f67a99968c310a15601aa0f5c2a4fb8361ced05bde6",
-				"dweb:/ipfs/QmVgg8oVTBiwpX2tDxzrMJtmDjw38WnaHaKQxQM4uh1jJW"
+				"bzz-raw://ec6687edf806ca7623d394506fd289168bab321807d7f3ebc18a4dcef0650e86",
+				"dweb:/ipfs/QmdoBxBiSmzNAu7nrV2wgmR5LoLF1bu1sZ1SGYdezcGNPH"
 			]
 		}
 	},

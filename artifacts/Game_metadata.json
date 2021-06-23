@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.6.11+commit.5ef660b1"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Game.sol": "Game"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Game.sol": {
+			"keccak256": "0x50e884fe8a4f14248dc96343d0cc39b4b71537ea7906313e3cc48256b5fe3d6c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f12c637da6c3e961c4d99f5789f5a8d576311b0453a7732620761548531008c0",
+				"dweb:/ipfs/QmbERQzKHtPrxds4jt1EdMfzny6xFaTo22NLtWxVAnANue"
+			]
+		}
+	},
+	"version": 1
+}

@@ -4,11 +4,13 @@ pragma solidity 0.6.11;
 pragma experimental ABIEncoderV2;
 
 import './IStdReference.sol';
+import './Game.sol';
 
 contract PredictionGame {
     IStdReference ref;
     
     mapping (address => bool) private _waitingPlayers;
+    mapping (uint256 => Game) private _games;
 
     constructor() public {
         ref = IStdReference(0xDA7a001b254CD22e46d3eAB04d937489c93174C3);
